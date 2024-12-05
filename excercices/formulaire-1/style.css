@@ -1,0 +1,59 @@
+body{
+    background : linear-gradient(#f6d365, #fda085);
+    height: 100vh;
+
+    
+}
+
+
+.container {
+    margin: auto;
+background-color: white;
+width: 500px;
+border-radius: 5px;
+}
+
+
+h1 {
+    text-align: center;
+    
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700px;
+    color: grey;
+    padding: 10px;
+   
+} 
+
+
+
+.container_button {
+    display: flex;
+    justify-content: center;
+}
+
+button{
+   
+    background: linear-gradient(#f6d365, #fda085);
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px  black ;
+}
+
+
+
+input, textarea, button {
+    margin: 5px;
+    border: solid 2px lightgray;
+    border-radius: 5px;
+    border-style: inset;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px;
+    
+} 
+    
